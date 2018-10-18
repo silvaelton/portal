@@ -1,0 +1,70 @@
+.ground{
+  background: #EAEBEF
+}
+
+.bx-wrapper{
+  border: none;
+  width: 1171
+}
+.bxslide_action li{
+  width: 1171px !important;
+}
+.about-action{
+  height: 330px;
+  background-color:#79b792;
+}
+.about-action-text{
+  background-color:#de3859;
+  height: 330px;
+}
+.about-action-text p{
+  font-size: 16px;
+  color: #fff;
+  margin-top:30px;
+  text-align: justify;
+}
+.about-action-title{
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+  display: table;
+  margin-top: 130px;
+  transform: rotate(-90deg);
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.action-button{
+  border: 2px solid #fff;
+  font-size: 29px;
+  font-weight: bold;
+  padding: 7px;
+	text-align: center;
+  width: 357px;
+  color: #fff!important;
+  display: block;
+  margin:0 auto;
+  margin-top: 36px;
+
+}
+.action-button2{
+	float: left;
+	margin-left: 70px;
+}
+
+strong{
+  color: #fff;
+}
