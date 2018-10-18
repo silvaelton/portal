@@ -1,0 +1,73 @@
+/* Mega Menu */
+.navbar-item.is-mega {
+  position: static;
+
+  .is-mega-menu-title {
+    margin-bottom: 0;
+    padding: .375rem 1rem;
+  }
+}
+
+
+/* Arrow Menu */
+.navbar-link.habitacao:not(.is-arrowless)::after, .navbar-link.habitacao:hover{
+    border-color:#349736;
+    color:#349736;
+}
+.navbar-link.regularizacao:not(.is-arrowless)::after, .navbar-link.regularizacao:hover{
+    border-color:#FCA92A;
+    color:#FCA92A;
+}
+.navbar-link.assistencia:not(.is-arrowless)::after, .navbar-link.assistencia:hover{
+    border-color:#C50F5A;
+    color:#C50F5A;
+}
+.navbar-link.servicos:not(.is-arrowless)::after, .navbar-link.servicos:hover{
+    border-color:#237D9F;
+    color:#237D9F;
+}
+.navbar-link.editais:not(.is-arrowless)::after, .navbar-link.editais:hover{
+    border-color:#7A3A60;
+    color:#7A3A60;
+}
+.navbar-link.agendamento:not(.is-arrowless)::after, .navbar-link.agendamento:hover{
+    border-color:#82837A;
+    color:#82837A;
+}
+.navbar-link.institucional:not(.is-arrowless)::after, .navbar-link.institucional:hover{
+    border-color:#0A2D43;
+    color:#0A2D43;
+}
+
+.navbar-dropdown a.navbar-item {
+  color: #0a0a0a;
+  border-bottom: 2px solid #fff;
+}
+.navbar-dropdown a.navbar-item:hover{
+  background-color: inherit;
+}
+a.navbar-item.item-habitacao:hover{
+  border-color:#349736;
+}
+a.navbar-item.item-regularizacao:hover{
+  border-color:#FCA92A;
+}
+a.navbar-item.item-assistencia:hover{
+  border-color:#C50F5A;
+}
+a.navbar-item.item-servicos:hover{
+  border-color:#237D9F;
+}
+a.navbar-item.item-editais:hover{
+  border-color:#7A3A60;
+}
+a.navbar-item.item-agendamento:hover{
+  border-color:#82837A;
+}
+a.navbar-item.item-institucional:hover{
+  border-color:#0A2D43;
+}
+.image-mega{
+  width:100%;
+  max-height:160px!important;
+}
