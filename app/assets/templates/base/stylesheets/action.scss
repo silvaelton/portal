@@ -7,20 +7,23 @@
   width: 1171
 }
 .bxslide_action li{
-  width: 1171px !important;
+  width: 1345px !important;
 }
 .about-action{
   height: 330px;
   background-color:#79b792;
+  float: left;
 }
 .about-action-text{
   background-color:#de3859;
   height: 330px;
+  padding-top: 1px;
 }
 .about-action-text p{
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   margin-top:30px;
+  margin-left: 225px;
   text-align: justify;
 }
 .about-action-title{
@@ -28,7 +31,8 @@
   font-weight: bold;
   color: #fff;
   display: table;
-  margin-top: 130px;
+  margin-top: 116px;
+  margin-left: 30px;
   transform: rotate(-90deg);
 
 /* Safari */
@@ -57,14 +61,63 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   color: #fff!important;
   display: block;
   margin:0 auto;
-  margin-top: 36px;
+  margin-top: 50px;
 
 }
 .action-button2{
 	float: left;
-	margin-left: 70px;
+	margin-left: 136px;
 }
 
 strong{
   color: #fff;
+}
+
+.home-title{
+  font-size: 48px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.action-image{
+height: 250px;
+background-color: #000;
+background-size: cover;
+}
+
+.action-label{
+  padding: 0px 15px 0px 15px;
+}
+
+.action-label-title{
+  color:#000;
+  font-size: 33px;
+}
+
+.action-label-subtitle{
+  color: #8b8b8c;
+  font-size: 33px;
+}
+
+.action-label-button{
+	color: #fff;
+	font-size: 43px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.action-label-button:hover{
+  color:#fff;
+}
+
+.action-label-button-0{
+  background-color: #de3859;
+}
+.action-label-button-1{
+  background-color: #79b792;
+}
+.action-label-button-2{
+  background-color: #f49649;
 }
