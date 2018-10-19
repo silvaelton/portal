@@ -1,0 +1,296 @@
+%nav.navbar.is-fixed-top{"aria-label" => "main navigation", :role => "navigation"}
+  .navbar-brand
+    %a.navbar-item{:href => "https://bulma.io"}
+      %img{:src => "http://www.codhab.df.gov.br/portal/images/codhab.png", :width => "112"}/
+    %a.navbar-burger.burger{"aria-expanded" => "false", "aria-label" => "menu", "data-target" => "navbarBasicExample", :role => "button"}
+      %span{"aria-hidden" => "true"}
+      %span{"aria-hidden" => "true"}
+      %span{"aria-hidden" => "true"}
+  #navbarBasicExample.navbar-menu
+    .navbar-start
+      .navbar-item.has-dropdown.is-hoverable.is-mega
+        %a.navbar-link.habitacao
+          Habitação
+        .navbar-dropdown{"data-style" => "width: 18rem;"}
+          .container.is-fluid
+            .columns
+              .column
+                %h1.title.is-6.is-mega-menu-title Participe
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Conheça o programa
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Documentação necessária
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Cadastro único
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Atendimento ao cidadão
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Formulários
+              .column
+                %h1.title.is-6.is-mega-menu-title Acompanhe
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Agendar / Reagendar atendimento
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Pesquisar CPF
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Listas de candidatos por situação
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Análise do agente financeiro
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Listas habilitados - Faixa 3 e 4
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Fiscalização e retomada
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Georreferenciamento
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Previsão de ofertas de unidades habitacionais
+              .column
+                %h1.title.is-6.is-mega-menu-title Entidades
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Conheça
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Manual das entidades
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Listas de entidades cadastradas
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Agenda de reuniões / Pontos de controle
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Sorteios
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Geolocalização
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Área Restrita
+                %a.navbar-item.item-habitacao{:href => "#"}
+                  Informações de áreas habitacionais
+              .column
+                %a.navbar-item{:href => "#"}
+                  %img.image-mega{:src => "http://www.codhab.df.gov.br/portal/images/publicidade1.png"}
+                %a.navbar-item{:href => "#"}
+                  %img.image-mega{:src => "http://www.codhab.df.gov.br/portal/images/publicidade2.png"}
+          %hr.navbar-divider/
+          .navbar-item
+            .navbar-content
+              .level.is-mobile
+                .level-left
+                  .level-item
+                    %strong Acesso a área restrita do candidato
+                .level-right
+                  .level-item
+                    %a.button.bd-is-rss.is-small{:href => "http://bulma.io/atom.xml"}
+                      %span.icon.is-small
+                        %i.fa.fa-key
+                      %span Login
+      .navbar-item.has-dropdown.is-hoverable
+        %a.navbar-link.regularizacao
+          Regularização
+        .navbar-dropdown
+          .container.is-fluid
+            .columns
+              .column
+                %h1.title.is-6.is-mega-menu-title Participe
+                %a.navbar-item.item-regularizacao
+                  Conheça o programa
+                %a.navbar-item.item-regularizacao
+                  Documentação necessára
+                %a.navbar-item.item-regularizacao
+                  Documentação cadastral
+                %a.navbar-item.item-regularizacao
+                  Formulários
+              .column
+                %h1.title.is-6.is-mega-menu-title Acompanhe
+                %a.navbar-item.item-regularizacao
+                  Andamento da localidade
+                %a.navbar-item.item-regularizacao
+                  Agendar / Reagendar atendimento
+                %a.navbar-item.item-regularizacao
+                  Atualização Cadastral / Consulta
+                %a.navbar-item.item-regularizacao
+                  Pesquisa por CPF
+                %a.navbar-item.item-regularizacao
+                  Contatos telefônicos
+                %a.navbar-item.item-regularizacao
+                  Entregas - Carteira imobiliária
+                %a.navbar-item.item-regularizacao
+                  Entregas de escrituras - Geolocalizadas
+      .navbar-item.has-dropdown.is-hoverable
+        %a.navbar-link.assistencia
+          Assistência Técnica
+        .navbar-dropdown
+          .container.is-fluid
+            .columns
+              .column
+                %h1.title.is-6.is-mega-menu-title Participe
+                %a.navbar-item.item-assistencia
+                  Postos de assistência técnica
+                %a.navbar-item.item-assistencia
+                  Melhorias habitacionais
+              .column
+                %h1.title.is-6.is-mega-menu-title Programas
+                %a.navbar-item.item-assistencia
+                  Postos de assistência técnica
+                %a.navbar-item.item-assistencia
+                  Melhorias habitacionais
+      .navbar-item.has-dropdown.is-hoverable
+        %a.navbar-link.servicos
+          Serviços
+        .navbar-dropdown
+          .container.is-fluid
+            .columns
+              .column
+                %h1.title.is-6.is-mega-menu-title Responsabilidade Social
+                %a.navbar-item.item-servicos
+                  Postos de assistência técnica
+                %a.navbar-item.item-servicos
+                  Melhorias habitacionais
+              .column
+                %h1.title.is-6.is-mega-menu-title Ferramentas
+                %a.navbar-item.item-servicos
+                  Emitir certidão
+                %a.navbar-item.item-servicos
+                  Validar ficha descritiva
+              .column
+                %h1.title.is-6.is-mega-menu-title Produtos
+                %a.navbar-item.item-servicos
+                  Contratos e convênios
+                %a.navbar-item.item-servicos
+                  Agendamento de carteira imobiliária
+                %a.navbar-item.item-servicos
+                  Validar ficha descritiva
+      .navbar-item.has-dropdown.is-hoverable.is-mega
+        %a.navbar-link.editais
+          Editais
+        .navbar-dropdown{"data-style" => "width: 18rem;"}
+          .container.is-fluid
+            .columns
+              .column
+                %h1.title.is-6.is-mega-menu-title Entidades
+                %a.navbar-item.item-editais{:href => "#"}
+                  Chamamento
+                %a.navbar-item.item-editais{:href => "#"}
+                  Convocação
+              .column
+                %h1.title.is-6.is-mega-menu-title Empresas
+                %a.navbar-item.item-editais{:href => "#"}
+                  Chamamento
+                %a.navbar-item.item-editais{:href => "#"}
+                  Credenciamento
+              .column
+                %h1.title.is-6.is-mega-menu-title Pregões
+                %a.navbar-item.item-editais{:href => "#"}
+                  Pregão Eletrônico
+                %a.navbar-item.item-editais{:href => "#"}
+                  Pregão Presencial
+              .column
+                %h1.title.is-6.is-mega-menu-title Convite
+                %a.navbar-item.item-editais{:href => "#"}
+                  Editais de Convite
+              .column
+                %h1.title.is-6.is-mega-menu-title Concorrência
+                %a.navbar-item.item-editais{:href => "#"}
+                  Concorrência
+              .column
+                %h1.title.is-6.is-mega-menu-title Cotação Eletrônica
+                %a.navbar-item.item-editais{:href => "#"}
+                  Cotações
+              .column
+                %h1.title.is-6.is-mega-menu-title Concursos
+                %a.navbar-item.item-editais{:href => "#"}
+                  O que são?
+                %a.navbar-item.item-editais{:href => "#"}
+                  Marca CODHAB
+                %a.navbar-item.item-editais{:href => "#"}
+                  O que são?
+               
+      .navbar-item.has-dropdown.is-hoverable
+        %a.navbar-link.agendamento
+          Agendamentos
+        .navbar-dropdown
+          %a.navbar-item
+            Habitação
+          %a.navbar-item
+            Regularização
+          %a.navbar-item
+            Entidades
+      .navbar-item.has-dropdown.is-hoverable.is-mega
+        .navbar-link.institucional
+          Institucional
+        #blogDropdown.navbar-dropdown{"data-style" => "width: 18rem;"}
+          .container.is-fluid
+            .columns
+              .column
+                %h1.title.is-6.is-mega-menu-title Sub Menu Title
+                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
+                  .navbar-content
+                    %p
+                      %small.has-text-info 03 Aug 2017
+                    %p New feature: list of tags
+                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
+                  .navbar-content
+                    %p
+                      %small.has-text-info 03 Aug 2017
+                    %p New feature: list of tags
+                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
+                  .navbar-content
+                    %p
+                      %small.has-text-info 03 Aug 2017
+                    %p New feature: list of tags
+              .column
+                %h1.title.is-6.is-mega-menu-title Sub Menu Title
+                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
+                  .navbar-content
+                    %p
+                      %small.has-text-info 03 Aug 2017
+                    %p New feature: list of tags
+                %a.navbar-item{:href => "/documentation/overview/start/"}
+                  Overview
+                %a.navbar-item{:href => "http://bulma.io/documentation/modifiers/syntax/"}
+                  Modifiers
+                %a.navbar-item{:href => "http://bulma.io/documentation/columns/basics/"}
+                  Columns
+              .column
+                %h1.title.is-6.is-mega-menu-title Sub Menu Title
+                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
+                  .navbar-content
+                    %p
+                      %small.has-text-info 03 Aug 2017
+                    %p New feature: list of tags
+                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
+                  .navbar-content
+                    %p
+                      %small.has-text-info 03 Aug 2017
+                    %p New feature: list of tags
+                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
+                  .navbar-content
+                    %p
+                      %small.has-text-info 03 Aug 2017
+                    %p New feature: list of tags
+              .column
+                %h1.title.is-6.is-mega-menu-title Sub Menu Title
+                %a.navbar-item{:href => "/documentation/overview/start/"}
+                  Overview
+                %a.navbar-item{:href => "http://bulma.io/documentation/modifiers/syntax/"}
+                  Modifiers
+                %a.navbar-item{:href => "http://bulma.io/documentation/columns/basics/"}
+                  Columns
+                %a.navbar-item{:href => "http://bulma.io/documentation/layout/container/"}
+                  Layout
+          %hr.navbar-divider/
+          .navbar-item
+            .navbar-content
+              .level.is-mobile
+                .level-left
+                  .level-item
+                    %strong Stay up to date!
+                .level-right
+                  .level-item
+                    %a.button.bd-is-rss.is-small{:href => "http://bulma.io/atom.xml"}
+                      %span.icon.is-small
+                        %i.fa.fa-rss
+                      %span Subscribe
+    -# .navbar-end
+    -#   .navbar-item
+    -#     .buttons
+    -#       %a.button.is-primary
+    -#         %strong Sign up
+    -#       %a.button.is-light
+    -#         Log in
