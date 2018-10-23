@@ -28,7 +28,7 @@
   .columns
     .column.action-label.is-4
       .action-image{style: "background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZQyDf0mCrtA9G-xZv1HxdAMPd3ESzWC8TqjGN6Ku3p7L56bEVTg')"}
-      = link_to 'Concluido', '#', class: "action-label-button action-label-button-0"
+      = link_to 'Concluido', '#', class: "action-label-button action-color-1"
       .action-label-title
         Ação Urbana Comunitária
         %br
@@ -40,7 +40,7 @@
           9h
     .column.action-label.is-4
       .action-image{style: "background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZQyDf0mCrtA9G-xZv1HxdAMPd3ESzWC8TqjGN6Ku3p7L56bEVTg')"}
-      = link_to 'Concluido', '#', class: "action-label-button action-label-button-0"
+      = link_to 'Concluido', '#', class: "action-label-button action-color-1"
       .action-label-title
         Ação Urbana Comunitária
         %br
@@ -52,7 +52,7 @@
           9h
     .column.action-label.is-4
       .action-image{style: "background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZQyDf0mCrtA9G-xZv1HxdAMPd3ESzWC8TqjGN6Ku3p7L56bEVTg')"}
-      = link_to 'Concluido', '#', class: "action-label-button action-label-button-0"
+      = link_to 'Concluido', '#', class: "action-label-button action-color-1"
       .action-label-title
         Ação Urbana Comunitária
         %br
@@ -65,11 +65,11 @@
   .columns.is-centered
     .column.is-four-fifths
       %h1.home-title
-        Ações Concluídar
+        Ações Concluídas
   .columns
     .column.action-label.is-4
       .action-image{style: "background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZQyDf0mCrtA9G-xZv1HxdAMPd3ESzWC8TqjGN6Ku3p7L56bEVTg')"}
-      = link_to 'Concluido', '#', class: "action-label-button action-label-button-0"
+      = link_to 'Concluido', '#', class: "action-label-button action-color-0"
       .action-label-title
         Ação Urbana Comunitária
         %br
@@ -81,7 +81,7 @@
           9h
     .column.action-label.is-4
       .action-image{style: "background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZQyDf0mCrtA9G-xZv1HxdAMPd3ESzWC8TqjGN6Ku3p7L56bEVTg')"}
-      = link_to 'Concluido', '#', class: "action-label-button action-label-button-0"
+      = link_to 'Concluido', '#', class: "action-label-button action-color-0"
       .action-label-title
         Ação Urbana Comunitária
         %br
@@ -93,7 +93,7 @@
           9h
     .column.action-label.is-4
       .action-image{style: "background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZQyDf0mCrtA9G-xZv1HxdAMPd3ESzWC8TqjGN6Ku3p7L56bEVTg')"}
-      = link_to 'Concluido', '#', class: "action-label-button action-label-button-0"
+      = link_to 'Concluido', '#', class: "action-label-button action-color-0"
       .action-label-title
         Ação Urbana Comunitária
         %br
@@ -103,3 +103,44 @@
           24.03 /// Sábado
         %br
           9h
+
+  .columns.action-color-2.giant-text.default-margin
+    .column.is-6
+      %p
+        Confira aqui
+        %br
+        todas as ações concluidas
+        %br
+        pela CODHAB em sua cidade.
+    .column.is-6
+      = link_to "Ações concluidas", "#" , class: "action-button-2 action-button-gallery"
+
+  .columns.default-margin.action-title-home.giant-text
+    .column.is-6
+      %p
+        seja um parceiro e colabore
+        %br
+        para transformar as áreas de interesse
+        %br
+        social do Distrito Federal
+    .column.is-6
+      = link_to "Seja Voluntário", "#" , class: "action-button-2 action-button-gallery"
+
+  .columns.default-margin
+    .column.no-padding
+      .text-button
+        = link_to "DADOS GERAIS", "#", class: " button action-color-0"
+    .column.no-padding
+      .text-button
+        = link_to "EQUIPE", "#", class: "button action-color-1"
+    .column.no-padding
+      .text-button
+        = link_to "RELATÓRIO ANUAL", "#", class: "button action-color-2"
+
+  .columns.default-margin
+    .column.no-padding
+      .action-color-0.giant-title
+        Encontre a Ação
+  .columns
+    .column.no-padding
+      %iframe{:src => "https://www.google.com/maps/d/embed?mid=1yz9uyzuqUqOTl5mY0leOov1r2f4", class: "action-map"}
