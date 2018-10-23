@@ -1,26 +1,32 @@
+// Inicio de ações urbanas
 .ground{
   background: #EAEBEF
 }
-
+.no-padding{
+  padding: 0px;
+}
 .bx-wrapper{
   border: none;
   width: 1171
 }
 .bxslide_action li{
-  width: 1171px !important;
+  width: 1345px !important;
 }
 .about-action{
   height: 330px;
   background-color:#79b792;
+  float: left;
 }
 .about-action-text{
   background-color:#de3859;
   height: 330px;
+  padding-top: 1px;
 }
 .about-action-text p{
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   margin-top:30px;
+  margin-left: 225px;
   text-align: justify;
 }
 .about-action-title{
@@ -28,7 +34,8 @@
   font-weight: bold;
   color: #fff;
   display: table;
-  margin-top: 130px;
+  margin-top: 116px;
+  margin-left: 30px;
   transform: rotate(-90deg);
 
 /* Safari */
@@ -57,14 +64,140 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   color: #fff!important;
   display: block;
   margin:0 auto;
-  margin-top: 36px;
-
+  margin-top: 50px;
 }
+
+.action-button:hover{
+  text-decoration: underline;
+}
+
+.action-button-2{
+  border: 2px solid #fff;
+  font-size: 29px;
+  font-weight: bold;
+  padding: 7px;
+	text-align: center;
+  width: 357px;
+  color: #fff!important;
+  display: block;
+  margin:0 auto;
+  margin-top: 37px;
+}
+
+.action-button-2:hover{
+  text-decoration: underline;
+}
+
 .action-button2{
 	float: left;
-	margin-left: 70px;
+	margin-left: 136px;
 }
 
 strong{
   color: #fff;
 }
+
+.home-title{
+  font-size: 48px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.action-image{
+height: 250px;
+background-color: #000;
+background-size: cover;
+}
+
+.action-label{
+  padding: 0px 15px 0px 15px;
+}
+
+.action-label-title{
+  color:#000;
+  font-size: 33px;
+}
+
+.action-label-subtitle{
+  color: #8b8b8c;
+  font-size: 33px;
+}
+
+.action-label-button{
+	color: #fff;
+	font-size: 43px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.action-label-button:hover{
+  text-decoration: underline;
+}
+
+.action-label-button:hover{
+  color:#fff;
+}
+
+.action-color-0{
+  background-color: #DA3957;
+}
+.action-color-1{
+  background-color: #3C996A;
+}
+.action-color-2{
+  background-color: #F2954D;
+}
+
+.giant-text{
+  color:#fff;
+  font-size:30px;
+	padding-left: 100px;
+}
+
+.giant-title{
+  color: #fff;
+  font-size: 44px;
+  padding: 17px;
+  text-align: center;
+}
+
+.default-margin{
+  margin-top: 50px;
+}
+
+.action-button-gallery{
+  width: 400px;
+}
+
+.action-title-home{
+  background-color:#339967;
+  color:#fff;
+  padding-left: 100px;
+	font-size: 30px;
+}
+
+.button{
+  border: 0px;
+  width: 100%;
+  height: 85px;
+  border-radius: unset;
+  color: #fff;
+  font-size: 22px;
+}
+
+.button:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.text-button{
+  font-weight: bold;
+}
+
+.action-map{
+  width: 100%;
+  height: 480px;
+}
+// fin ações urbanas
