@@ -6,7 +6,7 @@
       %span{"aria-hidden" => "true"}
       %span{"aria-hidden" => "true"}
       %span{"aria-hidden" => "true"}
-  #navbarBasicExample.navbar-menu
+  .navbar-menu
     .navbar-start
       .navbar-item.has-dropdown.is-hoverable.is-mega
         %a.navbar-link.habitacao
@@ -212,85 +212,72 @@
           %a.navbar-item
             Entidades
       .navbar-item.has-dropdown.is-hoverable.is-mega
-        .navbar-link.institucional
+        %a.navbar-link.institucional
           Institucional
-        #blogDropdown.navbar-dropdown{"data-style" => "width: 18rem;"}
+        .navbar-dropdown{"data-style" => "width: 18rem;"}
           .container.is-fluid
             .columns
               .column
-                %h1.title.is-6.is-mega-menu-title Sub Menu Title
-                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
-                  .navbar-content
-                    %p
-                      %small.has-text-info 03 Aug 2017
-                    %p New feature: list of tags
-                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
-                  .navbar-content
-                    %p
-                      %small.has-text-info 03 Aug 2017
-                    %p New feature: list of tags
-                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
-                  .navbar-content
-                    %p
-                      %small.has-text-info 03 Aug 2017
-                    %p New feature: list of tags
+                %h1.title.is-6.is-mega-menu-title A companhia
+                %a.navbar-item.item-institucional{:href => "#"}
+                  História
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Missão
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Visão
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Valores
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Quem é quem
+                %a.navbar-item.item-institucional{:href => "#"}
+                  TAC
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Perguntas Frequentes
               .column
-                %h1.title.is-6.is-mega-menu-title Sub Menu Title
-                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
-                  .navbar-content
-                    %p
-                      %small.has-text-info 03 Aug 2017
-                    %p New feature: list of tags
-                %a.navbar-item{:href => "/documentation/overview/start/"}
-                  Overview
-                %a.navbar-item{:href => "http://bulma.io/documentation/modifiers/syntax/"}
-                  Modifiers
-                %a.navbar-item{:href => "http://bulma.io/documentation/columns/basics/"}
-                  Columns
+                %h1.title.is-6.is-mega-menu-title Organização
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Organograma
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Diretoria Executiva
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Assessorias
               .column
-                %h1.title.is-6.is-mega-menu-title Sub Menu Title
-                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
-                  .navbar-content
-                    %p
-                      %small.has-text-info 03 Aug 2017
-                    %p New feature: list of tags
-                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
-                  .navbar-content
-                    %p
-                      %small.has-text-info 03 Aug 2017
-                    %p New feature: list of tags
-                %a.navbar-item{:href => "/2017/08/03/list-of-tags/"}
-                  .navbar-content
-                    %p
-                      %small.has-text-info 03 Aug 2017
-                    %p New feature: list of tags
+                %h1.title.is-6.is-mega-menu-title Conselhos
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Conselho Adminstrativo
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Conselho Fiscal
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Listas de entidades cadastradas
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Agenda de reuniões / Pontos de controle
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Sorteios
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Geolocalização
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Área Restrita
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Informações de áreas habitacionais
               .column
-                %h1.title.is-6.is-mega-menu-title Sub Menu Title
-                %a.navbar-item{:href => "/documentation/overview/start/"}
-                  Overview
-                %a.navbar-item{:href => "http://bulma.io/documentation/modifiers/syntax/"}
-                  Modifiers
-                %a.navbar-item{:href => "http://bulma.io/documentation/columns/basics/"}
-                  Columns
-                %a.navbar-item{:href => "http://bulma.io/documentation/layout/container/"}
-                  Layout
-          %hr.navbar-divider/
-          .navbar-item
-            .navbar-content
-              .level.is-mobile
-                .level-left
-                  .level-item
-                    %strong Stay up to date!
-                .level-right
-                  .level-item
-                    %a.button.bd-is-rss.is-small{:href => "http://bulma.io/atom.xml"}
-                      %span.icon.is-small
-                        %i.fa.fa-rss
-                      %span Subscribe
-    -# .navbar-end
-    -#   .navbar-item
-    -#     .buttons
-    -#       %a.button.is-primary
-    -#         %strong Sign up
-    -#       %a.button.is-light
-    -#         Log in
+                %h1.title.is-6.is-mega-menu-title Documentos
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Estatuto social
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Regimento interno
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Regulamento interno-licitações 
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Legislação
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Resoluções
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Despesas
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Relatórios das atividades
+                %a.navbar-item.item-institucional{:href => "#"}
+                  Metas 2018
+              .column
+                %img.image-mega{:src => "http://www.codhab.df.gov.br/portal/images/vlibras.gif"}
+                %p O conteúdo deste portal pode ser acessível em Libras usando o
+                %a{:href => "http://www.vlibras.gov.br/"} Vlibras

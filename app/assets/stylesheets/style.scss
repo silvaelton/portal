@@ -1,3 +1,10 @@
+/* Custom */
+
+.margin-50{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
 /* Mega Menu */
 .navbar-item.is-mega {
   position: static;
@@ -7,7 +14,6 @@
     padding: .375rem 1rem;
   }
 }
-
 
 /* Arrow Menu */
 .navbar-link.habitacao:not(.is-arrowless)::after, .navbar-link.habitacao:hover{
@@ -70,4 +76,14 @@ a.navbar-item.item-institucional:hover{
 .image-mega{
   width:100%;
   max-height:160px!important;
+}
+
+/* Post */
+
+.img-full-width{
+  width:100%;
+}
+
+.post-paragraph-margin{
+  margin-top: 35px;
 }
