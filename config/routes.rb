@@ -28,4 +28,9 @@ Rails.application.routes.draw do
   get 'selagem_bananal_area1',   to: 'custom_pages#selagem_bananal_area1'
   get 'selagem_copaibas',        to: 'custom_pages#selagem_copaibas'
   get 'selagem_copaibas_area1',  to: 'custom_pages#selagem_copaibas_area1'
+  resources :social_events, path: 'eventos-sociais'
+
+  resources :actions, path: 'acoes-urbanas'
+  get '/acoes_concluidas', to: 'actions#done_action'
+  get 'galeria', to: 'actions#galeria'
 end
