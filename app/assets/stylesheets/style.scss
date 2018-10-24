@@ -5,6 +5,30 @@
   margin-bottom:50px;
 }
 
+body{
+  margin-top: 25px;
+}
+
+/* Slider */
+
+.bx-wrapper{
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+	-moz-box-shadow:none!important;
+	-webkit-box-shadow:none!important;
+	box-shadow: none!important;
+}
+
+.slider-mobilization>.bx-wrapper>.bx-viewport{
+	height: 430px!important;
+}
+
+/* Footer */
+
+.footer{
+  margin-top:100px;
+}
 /* Mega Menu */
 .navbar-item.is-mega {
   position: static;
@@ -86,4 +110,19 @@ a.navbar-item.item-institucional:hover{
 
 .post-paragraph-margin{
   margin-top: 35px;
+}
+
+/* Mobilização Social */
+
+.mobilization{
+  color:#bb1631
+}
+.mobilization-rules{
+  background:#bb1631;
+  color:#fff;
+  padding:20px 0px;
+}
+.mobilization-rules a, .mobilization-rules a:hover{
+  color:#fff
+
 }

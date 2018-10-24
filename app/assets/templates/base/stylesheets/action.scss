@@ -152,7 +152,7 @@ background-size: cover;
 
 .giant-text{
   color:#fff;
-  font-size:30px;
+  font-size:29px;
 	padding-left: 100px;
 }
 
@@ -201,3 +201,34 @@ background-size: cover;
   height: 480px;
 }
 // fin ações urbanas
+
+// inicio eventos sociais
+
+.text-label-social{
+  padding-top: 27px;
+  font-size: 36px;
+}
+
+.social-button{
+  border: 2px solid #fff;
+  font-size: 29px;
+  font-weight: bold;
+  padding: 7px;
+  text-align: center;
+  width: 357px;
+  color: #fff !important;
+  display: block;
+  margin: 0 auto;
+  margin: 26px 0px 26px 110px;
+}
+
+.social-button:hover{
+  text-decoration: underline;
+}
+.internal-image{
+  height: 557px
+}
+.internal-image img{
+  height: 557px;
+  width: 100%;
+}
