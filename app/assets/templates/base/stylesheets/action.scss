@@ -9,6 +9,14 @@
   border: none;
   width: 1171
 }
+
+.bx-viewport{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 402px !important;
+}
+
 .bxslide_action li{
   width: 1345px !important;
 }
@@ -114,21 +122,21 @@ strong{
   width: 100%
 }
 
-.action-label{
+.action-block{
   padding: 0px 15px 0px 15px;
 }
 
-.action-label-title{
+.action-block-title{
   color:#000;
   font-size: 33px;
 }
 
-.action-label-subtitle{
+.action-block-subtitle{
   color: #8b8b8c;
   font-size: 33px;
 }
 
-.action-label-button{
+.action-block-button{
 	color: #fff;
 	font-size: 43px;
 	width: 100%;
@@ -137,11 +145,11 @@ strong{
 	margin-top: 20px;
 }
 
-.action-label-button:hover{
+.action-block-button:hover{
   text-decoration: underline;
 }
 
-.action-label-button:hover{
+.action-block-button:hover{
   color:#fff;
 }
 
@@ -209,7 +217,7 @@ strong{
 
 // inicio eventos sociais
 
-.text-label-social{
+.text-block-social{
   padding-top: 27px;
   font-size: 36px;
 }
@@ -252,7 +260,7 @@ strong{
 
 // inicio partial contact
 
-.contact-label{
+.contact-block{
   background: #FCCB3C;
 }
 
@@ -265,7 +273,7 @@ strong{
 
 // inicio partial admin
 
-.admin-label{
+.admin-block{
   background: #8A8A8B
 }
 
@@ -304,13 +312,13 @@ strong{
   padding: 29px 0px 0px 52px;
 }
 
-.conclude-label{
+.conclude-block{
   height: 120px;
 }
 
 .conclude-color{
   background: #fff;
-  padding-top: 33px;
+  padding: 33px 10px;
 }
 
 // fim ações concluidas
@@ -331,4 +339,145 @@ strong{
 
 .gallery-image img{
   width: 100%;
+}
+
+// fim galeria
+
+// inicio assistencia tecnica
+
+.technical-title{
+  font-size: 40px;
+  font-weight: bold;
+}
+.technical-block{
+  background: #BF1D7A;
+  margin: 1px;
+}
+
+.technical-block p{
+  color: #fff;
+  text-align: justify;
+  padding: 10px
+}
+
+.technical-station-block-close{
+  background: #858585;
+  text-align: center;
+  color: #fff;
+}
+.technical-station-block-open{
+  background: #F6AF21;
+  text-align: center;
+  color: #fff;
+}
+
+.technical-station-title{
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.technical-station-subtitle{
+  font-size: 12px;
+}
+
+.technical-station-label{
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.technical-station-button{
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+  color: #fff !important;
+  display: block;
+  margin-top: 31px;
+}
+
+.technical-station-footer{
+  border-top: 1px solid;
+  margin-top: 31px;
+}
+
+.technical-station-footer h4{
+  padding-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.technical-station-footer p{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.technical-station-image{
+  height: 290px;
+  overflow: hidden;
+}
+// fim assistencia tecnica
+
+// inicio postos
+
+.station-image img{
+  width: 100%
+}
+
+.station-block-color-1{
+  background: #F6AF21;
+  color: #fff;
+  text-align: center;
+  margin: 50px 1px;
+}
+
+.station-block-color-2{
+  background: #7F7F7F;
+  color: #fff;
+  text-align: center;
+  margin: 50px 1px;
+}
+
+.station-text h2{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.station-text h4{
+  margin-bottom: 18px;
+}
+
+.station-block{
+  padding: 10px
+}
+
+.station-title{
+  font-size: 43px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.station-subtitle{
+  font-size: 27px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 23px;
+}
+
+.station-date{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  width: 28%;
+  margin: 0 auto;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+
+p.responsible{
+  font-size: 26px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
