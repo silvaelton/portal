@@ -324,12 +324,13 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 .technical-station-button{
   border: 1px solid #fff;
-  font-size: 16px;
-  font-weight: bold;
   padding: 6px;
-  color: #fff !important;
   display: block;
   margin-top: 31px;
+}
+
+.technical-station-button:hover{
+  color: #fff;
 }
 
 .technical-station-footer{
@@ -339,13 +340,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 .technical-station-footer h4{
   padding-top: 25px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.technical-station-footer p{
-  font-size: 12px;
-  font-weight: bold;
 }
 
 .technical-station-image{
@@ -360,23 +354,17 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   width: 100%
 }
 
-.station-block-color-1{
+.station-block-open{
   background: #F6AF21;
-  color: #fff;
-  text-align: center;
   margin: 50px 1px;
 }
 
-.station-block-color-2{
+.station-block-close{
   background: #7F7F7F;
-  color: #fff;
-  text-align: center;
   margin: 50px 1px;
 }
 
 .station-text h2{
-  font-size: 25px;
-  font-weight: bold;
   margin-bottom: 18px;
 }
 
@@ -384,20 +372,16 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   margin-bottom: 18px;
 }
 
-.station-block{
-  padding: 10px
+.station-block-color{
+  background: #7F7F7F;
+  margin: 13px
 }
 
-.station-title{
-  font-size: 43px;
+.is-underline{
   text-decoration: underline;
-  font-weight: bold;
 }
 
 .station-subtitle{
-  font-size: 27px;
-  text-decoration: underline;
-  font-weight: bold;
   margin-top: 23px;
 }
 
@@ -406,12 +390,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   border-bottom: 1px solid #fff;
   width: 28%;
   margin: 0 auto;
-  font-style: italic;
   margin-bottom: 18px;
 }
 
 p.responsible{
-  font-size: 26px;
   margin-top: 18px;
   margin-bottom: 18px;
 }
