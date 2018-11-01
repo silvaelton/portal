@@ -4,4 +4,8 @@ class TechnicalAssistancesController < ApplicationController
 
   def station
   end
+
+  def improvement
+  end
+
 end

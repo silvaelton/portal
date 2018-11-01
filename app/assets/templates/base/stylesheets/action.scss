@@ -397,3 +397,50 @@ p.responsible{
   margin-top: 18px;
   margin-bottom: 18px;
 }
+
+// inicio melhorias habitacionais
+
+.improvement-block-color-0{
+  background: #BD250A;
+  margin: auto;
+}
+
+.improvement-block-color-1{
+  background: #6CA3C1;
+  margin: auto;
+}
+.improvement-block-color-0 img{
+  width: 649px;
+  margin: 22px 0px 0px 60px;
+}
+
+.improvement-miniblock-color-0{
+  background: #fff;
+  color: #BD250A;
+  margin: 16px;
+}
+
+.improvement-miniblock-color-0 a{
+  color: #258AB8;
+}
+
+.improvement-miniblock-color-1{
+  background: #fff;
+  color: #BD250A;
+  margin: 10px 53px;
+}
+
+.improvement-miniblock-color-1 a{
+  color: #258AB8;
+}
+
+.improvement-miniblock-color-1:hover a{
+  text-decoration: underline;
+}
+
+.improvement-image img{
+  width: 100%;
+  margin-top: -12px;
+}
+
+// fim melhorias habitacionais

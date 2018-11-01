@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   resources :social_events, path: 'eventos-sociais'
 
   get 'postos' ,                   to: 'technical_assistances#station'
-  get 'melhorias' ,                to: 'technical_assistances#improvements'
+  get 'melhorias' ,                to: 'technical_assistances#improvement'
   get 'termos_de_uso',             to: 'custom_pages#terms'
   get 'ouvidoria',                 to: 'custom_pages#ouvidoria'
   get 'selagem',                   to: 'sealings#index'
