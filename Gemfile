@@ -28,3 +28,11 @@ group :development do
   gem 'sqlite3'
   gem 'web-console', '>= 3.3.0'
 end
+
+path 'engines' do
+  gem 'entity'
+  gem 'candidate'
+  gem 'common'
+  gem 'cpl'
+  gem 'document'
+end

@@ -11,6 +11,20 @@ GIT
       rails (~> 5.2.0)
       rake
 
+PATH
+  remote: engines
+  specs:
+    candidate (0.1.0)
+      rails (~> 5.2.1)
+    common (0.1.0)
+      rails (~> 5.2.1)
+    cpl (0.1.0)
+      rails (~> 5.2.1)
+    document (0.1.0)
+      rails (~> 5.2.1)
+    entity (0.1.0)
+      rails (~> 5.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +204,11 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   bulma-rails (~> 0.7.2)
   byebug
+  candidate!
+  common!
+  cpl!
+  document!
+  entity!
   haml (~> 5.0.4)
   jquery-rails (~> 4.3.3)
   listen (>= 3.0.5, < 3.2)
